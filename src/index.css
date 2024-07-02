@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #141414;
+  color: #e5e5e5;
+}
+.all-movies {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.one-movie {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  text-align: left;
+  border: 2px solid #e50914;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.one-movie button {
+  font-size: 16px;
+  background-color: #e50914;
+  color: #e5e5e5;
+  transition: transform 0.25s linear;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+.one-movie button:hover {
+  transform: scale(1.1);
+}
+
+/* Formulář */
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.input {
+  width: 260px;
+  font-size: 16px;
+  color: #e5e5e5;
+  background: #141414;
+  border: 2px solid #e5e5e5;
+  margin: -5px;
+  padding: 5px;
+}
+.input::placeholder {
+  color: #848383;
+}
+.form input[type="submit"] {
+  font-size: 16px;
+  background-color: #e50914;
+  color: #e5e5e5;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
